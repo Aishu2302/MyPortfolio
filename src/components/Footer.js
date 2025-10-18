@@ -39,7 +39,7 @@ function Footer() {
                 href="https://www.instagram.com/bloomdigiweb_/"
                 style={{ color: "white" }}
                 target="_blank" 
-                rel="noperner noreferrer"
+                rel="noreferrer"
               >
                 <AiFillInstagram />
               </a>
