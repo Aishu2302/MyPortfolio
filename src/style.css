@@ -71,11 +71,13 @@ html {
   /* Navbar Section  */
   /* --------- */
   .navbar.sticky {
-  background-color: rgba(0, 0, 0, 0.95) !important; /* slightly transparent black */
+  background-color: rgba(255, 255, 255, 0.95)  !important; /* slightly transparent black */
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   transition: all 0.4s ease-in-out;
 }
-
+.navbar-nav .nav-link:hover {
+  color: #ff007f !important; /* nice pink hover */
+}
   .nav-link-custom {
   color: white !important;
   font-weight: 500;
@@ -107,9 +109,7 @@ html {
 .navbar-nav .nav-item a:hover {
   color: #be50f4 !important; /* purple color on hover */
 }
-.navbar-collapse {
-  background-color: white !important;
-}
+
 .logo {
   height: 3.9em !important;
   width: 4.8em !important;
