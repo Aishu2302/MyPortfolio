@@ -70,14 +70,34 @@ html {
   /* --------- */
   /* Navbar Section  */
   /* --------- */
+
+
+.navbar {
+  background-color: white !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar-toggler-icon {
+  color: black !important;
+}
+
+/* For mobile menu (when expanded) */
+.navbar-collapse {
+  background-color: white !important;
+}
+
+.navbar .nav-link:hover {
+  color: #8a2be2 !important; /* optional – adds purple hover effect */
+}
+
+
   .navbar.sticky {
   background-color: rgba(255, 255, 255, 0.95)  !important; /* slightly transparent black */
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   transition: all 0.4s ease-in-out;
 }
-.navbar-nav .nav-link:hover {
-  color: #ff007f !important; /* nice pink hover */
-}
+
   .nav-link-custom {
   color: white !important;
   font-weight: 500;
