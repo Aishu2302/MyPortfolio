@@ -107,7 +107,9 @@ html {
 .navbar-nav .nav-item a:hover {
   color: #be50f4 !important; /* purple color on hover */
 }
-
+.navbar-collapse {
+  background-color: white !important;
+}
 .logo {
   height: 3.9em !important;
   width: 4.8em !important;
