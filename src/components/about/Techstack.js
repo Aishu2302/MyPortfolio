@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import { SiDotnet } from "react-icons/si";
 import {
   DiJavascript1,
